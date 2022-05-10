@@ -71,6 +71,17 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\MaxiTorneo.Entities.League.datasource" />
+    <None Include="Properties\DataSources\MaxiTorneo.Entities.Person.datasource" />
+    <None Include="Properties\DataSources\MaxiTorneo.Entities.Player.datasource" />
+    <None Include="Properties\DataSources\MaxiTorneo.Entities.Team.datasource" />
+    <None Include="Properties\DataSources\MaxiTorneo.Persistence.EntityFrameworkDAL.datasource" />
+    <None Include="Properties\DataSources\MaxiTorneo.Persistence.IDAL.datasource" />
+    <None Include="Properties\DataSources\MaxiTorneo.Persistence.MaxiTorneoDbContext.datasource" />
+    <None Include="Properties\DataSources\MaxiTorneo.Persistence.MyDbContext.datasource" />
+    <None Include="Properties\DataSources\MaxiTorneo.Services.IMaxiTorneoService.datasource" />
+    <None Include="Properties\DataSources\MaxiTorneo.Services.MaxiTorneoService.datasource" />
+    <None Include="Properties\DataSources\MaxiTorneo.Services.ServiceException.datasource" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

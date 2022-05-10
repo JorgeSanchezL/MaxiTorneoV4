@@ -7,15 +7,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Krypton.Toolkit;
 
 namespace MaxiTorneoUI.UserControls
 {
-    public partial class UserControlFifaData : Krypton
+    public partial class MainControl : UserControl
     {
-        public UserControlFifaData()
+        public MainControl()
         {
             InitializeComponent();
+            panelUsers.Controls.Add(new UserManagement());
+        }
+
+        private void buttonAddBDClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonComenzarClick(object sender, EventArgs e)
+        {
+
         }
     }
 }

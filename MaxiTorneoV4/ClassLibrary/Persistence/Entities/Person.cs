@@ -16,7 +16,7 @@ namespace MaxiTorneo.Entities
             set;
         }
 
-        public virtual Team Team
+        public virtual string Team
         {
             get;
             set;

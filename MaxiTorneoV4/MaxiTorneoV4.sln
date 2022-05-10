@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32126.315
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{F98C5F37-58CC-497F-9EB5-773C5D8743D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxiTorneo", "ClassLibrary\MaxiTorneo.csproj", "{F98C5F37-58CC-497F-9EB5-773C5D8743D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxiTorneoUI", "MaxiTorneoUI\MaxiTorneoUI.csproj", "{E7D20D70-7872-43E6-B962-BE5C3C594FC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxiTorneoUI", "MaxiTorneoUI\MaxiTorneoUI.csproj", "{54C6B4FC-608B-416E-A161-B1ADAEA01DED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{F98C5F37-58CC-497F-9EB5-773C5D8743D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F98C5F37-58CC-497F-9EB5-773C5D8743D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F98C5F37-58CC-497F-9EB5-773C5D8743D0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E7D20D70-7872-43E6-B962-BE5C3C594FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7D20D70-7872-43E6-B962-BE5C3C594FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7D20D70-7872-43E6-B962-BE5C3C594FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7D20D70-7872-43E6-B962-BE5C3C594FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C6B4FC-608B-416E-A161-B1ADAEA01DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C6B4FC-608B-416E-A161-B1ADAEA01DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C6B4FC-608B-416E-A161-B1ADAEA01DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C6B4FC-608B-416E-A161-B1ADAEA01DED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

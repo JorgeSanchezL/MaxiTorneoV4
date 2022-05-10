@@ -37,7 +37,6 @@ namespace MaxiTorneo.Persistence
             modelBuilder.Entity<Player>().HasRequired(p => p.Team).WithMany(t => t.Players).WillCascadeOnDelete(false);
             modelBuilder.Entity<Player>().HasOptional(p => p.Person).WithMany(p => p.Players).WillCascadeOnDelete(false);
             modelBuilder.Entity<Team>().HasRequired(t => t.League).WithMany(l => l.Teams).WillCascadeOnDelete(false);
-            modelBuilder.Entity<Person>().HasRequired(p => p.Team).WithOptional(t => t.Person).WillCascadeOnDelete(false);
         }
 
     }

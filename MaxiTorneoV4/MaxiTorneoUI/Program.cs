@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace MaxiTorneoUI
 {
-    static class Program
+    internal static class Program
     {
         /// <summary>
         /// Punto de entrada principal para la aplicación.
@@ -16,7 +16,7 @@ namespace MaxiTorneoUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            Application.Run(MainForm.GetInstance());
         }
     }
 }

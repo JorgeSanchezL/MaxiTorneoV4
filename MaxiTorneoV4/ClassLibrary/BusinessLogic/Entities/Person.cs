@@ -16,7 +16,7 @@ namespace MaxiTorneo.Entities
             Players = new List<Player>();
         }
 
-        public Person(string name, Team team):this()
+        public Person(string name, string team):this()
         {
             if (service.GetAllPersons().Where(p => p.Name == name).Count() > 0)
             {
